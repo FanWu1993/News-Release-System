@@ -1,0 +1,82 @@
+<html>
+<head>
+<script src="TaskMenu.js"></script>
+<script>
+var taskMenu1,taskMenu2,taskMenu3,taskMenu4,taskMenu5,taskMenu6,taskMenu7;
+var item1,item2,item3,item4,item5,item6,item7,item8,item9,item10,item12,item13,item14,item15;
+//var item16;
+//var item17;
+//var item18;
+//var item19;
+//var item20;
+TaskMenu.setStyle("Blue/BlueStyle.css"); 
+window.onload = function()
+{
+	TaskMenu.setHeadMenuSpecial(true);
+	//TaskMenu.setScrollbarEnabled(true);
+	//TaskMenu.setAutoBehavior(false);
+	////////////////////////////////////////////////
+	item1 = new TaskMenuItem("管理员管理","Image/demo.gif","parent.window.frames[3].location.href='adminSelect.jsp'");
+	item2 = new TaskMenuItem("更改总管理员密码","Image/api.gif","parent.window.frames[3].location.href='adminChangerPassword.jsp'");
+	item3 = new TaskMenuItem("普通管理员管理","Image/demo.gif","parent.window.frames[3].location.href='commonManger.jsp'");
+	item4 = new TaskMenuItem("添加管理员","Image/friends.gif","parent.window.frames[3].location.href='managerInsert.jsp'");
+	item5 = new TaskMenuItem("一级类别管理","Image/demo.gif","parent.window.frames[3].location.href='newsType.jsp'");
+	item6 = new TaskMenuItem("添加类别","Image/friends.gif","parent.window.frames[3].location.href='insertType.jsp'");
+	item7 = new TaskMenuItem("二级类别管理","Image/demo.gif","parent.window.frames[3].location.href='newsStyle.jsp'");
+	item8 = new TaskMenuItem("添加详细类别","Image/friends.gif","parent.window.frames[3].location.href='insertStyle.jsp'");
+	item9 = new TaskMenuItem("新闻信息管理","Image/demo.gif","parent.window.frames[3].location.href='news.jsp'");
+	item10 = new TaskMenuItem("添加新闻","Image/friends.gif","parent.window.frames[3].location.href='selectnewsType.jsp'");
+	item11 = new TaskMenuItem("链接信息管理","Image/demo.gif","parent.window.frames[3].location.href='link.jsp'");
+	item12 = new TaskMenuItem("添加链接","Image/friends.gif","parent.window.frames[3].location.href='insertLink.jsp'");
+	item13 = new TaskMenuItem("新闻人物信息管理","Image/demo.gif","parent.window.frames[3].location.href='vote.jsp'");
+	item14 = new TaskMenuItem("添加新闻人物","Image/friends.gif","parent.window.frames[3].location.href='insertVote.jsp'");
+	item15 = new TaskMenuItem("退出","Image/update.gif","parent.window.frames[3].location.href='logout.jsp'");
+	//item16 = new TaskMenuItem("编辑名师","Image/update.gif","parent.window.frames[1].location.href='teacher_main.jsp'");
+	//item17 = new TaskMenuItem("添加日志","Image/update.gif","parent.window.frames[1].location.href='download_del.jsp'");
+	//item18 = new TaskMenuItem("编辑博客","Image/update.gif","parent.window.frames[1].location.href='download_del.jsp'");
+	//item19 = new TaskMenuItem("社区管理","Image/update.gif","parent.window.frames[1].location.href='topic_main.jsp'");
+	//item20 = new TaskMenuItem("随便试试","Image/update.gif","parent.window.frames[1].location.href='c.htm'");
+	//item20 = new TaskMenuItem("编辑资源","image/update.gif","parent.window.frames[1].location.href='download_del.jsp'");
+
+	////////////////////////////////////////////////
+	taskMenu1 = new TaskMenu("总管理员设置");
+	taskMenu1.add(item1);
+	taskMenu1.add(item2);
+	taskMenu1.setBackground("Image/bg.gif");
+	taskMenu1.init();
+	taskMenu2 = new TaskMenu("普通管理员设置",false);
+	taskMenu2.add(item3);
+	taskMenu2.add(item4);
+	taskMenu2.init();
+	taskMenu3 = new TaskMenu("新闻类别管理",false);
+	taskMenu3.add(item5);
+	taskMenu3.add(item6);
+	taskMenu3.add(item7);
+	taskMenu3.add(item8);
+	taskMenu3.init();
+	taskMenu4 = new TaskMenu("新闻管理",false);
+	taskMenu4.add(item9);
+	taskMenu4.add(item10);
+	taskMenu4.init();
+	taskMenu5 = new TaskMenu("链接管理",false);
+	taskMenu5.add(item11);
+	taskMenu5.add(item12);
+	taskMenu5.init();
+	taskMenu6 = new TaskMenu("新闻人物管理",false);
+	taskMenu6.add(item13);
+	taskMenu6.add(item14);
+	taskMenu6.init();
+	taskMenu7 = new TaskMenu("退出后台",false);
+	taskMenu7.add(item15);
+	taskMenu7.init();
+	//taskMenu7.add(item14);
+	//taskMenu7.init();
+	//taskMenu8 = new TaskMenu("名师风采",false);
+	//taskMenu8.add(item15);
+	//taskMenu8.add(item16);
+	//taskMenu8.init();
+	
+}
+</script>
+</head>
+</html>

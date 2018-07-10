@@ -1,0 +1,27 @@
+commonPassword.jsp     普通管理员设置——修改密码——输入原来密码页面
+
+commonManger.jsp          普通管理员设置——查看管理员信息
+
+updatepassword.jsp        普通管理员设置——修改密码——输入新密码页面
+
+managerUpdatePassword.java(Servlet) 普通管理员设置——修改密码——修改新密码
+
+updatepasswordwrong.jsp   普通管理员设置——修改密码——输入原来密码错误页面
+
+managerCheckPassword.java(Servlet)普通管理员设置——修改密码——验证输入原来密码
+
+updatePasswordForward.jsp 普通管理员设置——修改密码——修改密码成功后的跳转控制页面
+
+managerInsert.jsp 添加新的管理员——输入帐号页面
+
+managerCheckName.java(Servlet)  添加新的管理员——验证新的帐号是否已经注册
+managerInsertNext.jsp  添加新的管理员——新帐号未被注册的跳转页面，填写密码和真实姓名。
+managerInsertWrong.jsp  添加新的管理员——新帐号已经注册的错误跳转页面
+
+managerforward.jsp  添加新的管理员——添加成功跳转页面
+
+typeWatch.jsp    新闻类型管理——新闻类型显示主页面
+
+newsDetailStyle.jsp 新闻详细类型管理——详细类型显示主页面
+
+

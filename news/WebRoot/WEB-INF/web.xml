@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.news.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCheck</servlet-name>
+    <servlet-class>com.news.AdminCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminCheckPassword</servlet-name>
+    <servlet-class>com.news.AdminCheckPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUpdatePassword</servlet-name>
+    <servlet-class>com.news.AdminUpdatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelDetailStyle</servlet-name>
+    <servlet-class>com.news.DelDetailStyle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteManager</servlet-name>
+    <servlet-class>com.news.DeleteManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelLink</servlet-name>
+    <servlet-class>com.news.DelLink</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelNews</servlet-name>
+    <servlet-class>com.news.DelNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelType</servlet-name>
+    <servlet-class>com.news.DelType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelVote</servlet-name>
+    <servlet-class>com.news.DelVote</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertLink</servlet-name>
+    <servlet-class>com.news.InsertLink</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertNews</servlet-name>
+    <servlet-class>com.news.InsertNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertStyle</servlet-name>
+    <servlet-class>com.news.InsertStyle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertType</servlet-name>
+    <servlet-class>com.news.InsertType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertVote</servlet-name>
+    <servlet-class>com.news.InsertVote</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerCheck</servlet-name>
+    <servlet-class>com.news.ManagerCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerCheckName</servlet-name>
+    <servlet-class>com.news.ManagerCheckName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerCheckPassword</servlet-name>
+    <servlet-class>com.news.ManagerCheckPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerInsert</servlet-name>
+    <servlet-class>com.news.ManagerInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerUpdatePassword</servlet-name>
+    <servlet-class>com.news.ManagerUpdatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateDetailType</servlet-name>
+    <servlet-class>com.news.UpdateDetailType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateLink</servlet-name>
+    <servlet-class>com.news.UpdateLink</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateManager</servlet-name>
+    <servlet-class>com.news.UpdateManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateNews</servlet-name>
+    <servlet-class>com.news.UpdateNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateStyle</servlet-name>
+    <servlet-class>com.news.UpdateStyle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateType</servlet-name>
+    <servlet-class>com.news.UpdateType</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateVote</servlet-name>
+    <servlet-class>com.news.UpdateVote</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Check</servlet-name>
+    <servlet-class>com.news.Check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelStyle</servlet-name>
+    <servlet-class>com.news.DelStyle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertDetailStyle</servlet-name>
+    <servlet-class>com.news.InsertDetailStyle</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCheck</servlet-name>
+    <url-pattern>/servlet/AdminCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCheckPassword</servlet-name>
+    <url-pattern>/servlet/AdminCheckPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpdatePassword</servlet-name>
+    <url-pattern>/servlet/AdminUpdatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelDetailStyle</servlet-name>
+    <url-pattern>/servlet/DelDetailStyle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteManager</servlet-name>
+    <url-pattern>/servlet/DeleteManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelLink</servlet-name>
+    <url-pattern>/servlet/DelLink</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelNews</servlet-name>
+    <url-pattern>/servlet/DelNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelType</servlet-name>
+    <url-pattern>/servlet/DelType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelVote</servlet-name>
+    <url-pattern>/servlet/DelVote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertLink</servlet-name>
+    <url-pattern>/servlet/InsertLink</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertNews</servlet-name>
+    <url-pattern>/servlet/InsertNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertStyle</servlet-name>
+    <url-pattern>/servlet/InsertStyle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertType</servlet-name>
+    <url-pattern>/servlet/InsertType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertVote</servlet-name>
+    <url-pattern>/servlet/InsertVote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerCheck</servlet-name>
+    <url-pattern>/servlet/ManagerCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerCheckName</servlet-name>
+    <url-pattern>/servlet/ManagerCheckName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerCheckPassword</servlet-name>
+    <url-pattern>/servlet/ManagerCheckPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerInsert</servlet-name>
+    <url-pattern>/servlet/ManagerInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerUpdatePassword</servlet-name>
+    <url-pattern>/servlet/ManagerUpdatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateDetailType</servlet-name>
+    <url-pattern>/servlet/UpdateDetailType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateLink</servlet-name>
+    <url-pattern>/servlet/UpdateLink</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateManager</servlet-name>
+    <url-pattern>/servlet/UpdateManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNews</servlet-name>
+    <url-pattern>/servlet/UpdateNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStyle</servlet-name>
+    <url-pattern>/servlet/UpdateStyle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateType</servlet-name>
+    <url-pattern>/servlet/UpdateType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateVote</servlet-name>
+    <url-pattern>/servlet/UpdateVote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Check</servlet-name>
+    <url-pattern>/servlet/Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelStyle</servlet-name>
+    <url-pattern>/servlet/DelStyle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertDetailStyle</servlet-name>
+    <url-pattern>/servlet/InsertDetailStyle</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
